@@ -1,0 +1,31 @@
+{
+    "name": "devinosh/laravel-ai",
+    "description": "Easy to use ai agents",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "saeed hooshyar",
+            "email": "saeedhooshyar70@gmail.com",
+            "homepage": "https://saeidhooshyar.ir",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Devinosh\\Logs\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Devinosh\\Ai\\AiServiceProvider"
+            ]
+        }
+    },
+    "version": "dev-main",
+    "minimum-stability": "dev"
+}
