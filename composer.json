@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Devinosh\\Logs\\": "src"
+            "Devinosh\\Ai\\": "src"
         }
     },
     "extra": {
