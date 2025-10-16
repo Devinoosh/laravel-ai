@@ -102,8 +102,7 @@ Add the new provider config to config/ai.php.
 
 Update AIClientFactory to return the new Adapter when requested.
 
-Provider Capabilities
-## Tables
+## Provider Capabilities
 
 | Provider  | Text | Chat | Streaming  |
 | --------- |:-----|:-----|:-----------|
